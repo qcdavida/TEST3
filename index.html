@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>America On Tech - Bootstrap</title>
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="./index.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!--Add section tagging for the links. -->
+        <nav id="my-nav" class="navbar navbar-expand-lg">
+            <div class="container-fluid me-auto">
+                <a class="navbar-brand" href="#">
+                    <img src="https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="company logo" width="50" height="50">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- add mx-auto to center items -->
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#service-section">Services</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team-section">Team</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-section">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <header class="d-flex align-items-center">
+            <div class="container">
+                <h1 class="sp">Company Slogan</h1>
+                <br/>
+                <p>All about Company Name. Lorem ipsum dolor sit amet, consectetur
+                    aipiscing elit. In at purus no mi convallis gravida.
+                </p>
+                <br />
+                <button type="button" class="btn btn-primary">Buy Now</button>
+                <button type="button" class="btn btn-success">Learn More</button>
+            </div>
+        </header>
+
+        <section class="container services-section" id="service-section">
+            <h2>Our Services</h2>
+            <div class="row">
+                <div class="service-item col-lg-3 col-sm-6">
+                    <div class="service">
+                        <a href="#"><img src="business1.jpg" alt="photo of interaction between customer and business"></a>
+                    </div>
+
+                    <h2 class="service-offset">Latest Tech</h2>
+                    <p>Fast, easy to use solutions for your tech needs</p>
+                </div>
+
+                <div class="service-item col-lg-3 col-sm-6">
+                    <div class="service">
+                        <img src="business2.jpg" alt="photo of user using mobile app">
+                    </div>
+
+                    <h2 class="service-offset">Social Media</h2>
+                    <p>Let our social media team take your page to the next level</p>
+                </div>
+
+                <div class="service-item col-lg-3 col-sm-6">
+                    <div class="service">
+                        <img src="business3.jpg" alt="photo of company metrics and charts">
+                    </div>
+
+                    <h2 class="service-offset">Metrics</h2>
+                    <p>Get detailed analysis about your business and your customers</p>
+                </div>
+
+                <div class="service-item col-lg-3 col-sm-6">
+                    <div class="service">
+                        <img src="business4.jpg" alt="photo of team meeting in conference room">
+                    </div>
+
+                    <h2 class="service-offset">Personal Support</h2>
+                    <p>We offer that personal touch to help your business achieve its goals</p>
+                </div>              
+            </div>
+        </section>
+
+        <section class="my-team container-fluid" id="team-section">
+            <div class="row">
+                <div class="col-md-3 small-column d-flex flex-column align-items-center justify-content-center">
+                    <h1>Our</h1>
+                    <h1>Team</h1>
+                    <p>Hear from the people who care about you.</p>
+                </div>
+
+                <div class="col-md-9 main-column">
+                    <div class="row g-5">
+                        <div class="col-12 col-md-4 d-flex align-items-center justify-content-center">
+                            <div class="card h-100" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZmlsZSUyMHBob3Rvc3xlbnwwfHwwfHx8Mg%3D%3D" class="card-img-top" alt="profile photo of team member 1">
+                                
+                                <div class="card-header">Team Member 1</div>                                
+                                <div class="card-body">
+                                    <h5 class="card-title">CEO</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-4 d-flex align-items-center justify-content-center">
+                            <div class="card h-100" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1672863601285-253fc82db868?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHByb2ZpbGUlMjBwaG90b3xlbnwwfHwwfHx8Mg%3D%3D" class="card-img-top" alt="profile photo of team member 2">
+
+                                <div class="card-header">Team Member 2</div>
+                                <div class="card-body">
+                                    <h5 class="card-title">CFO</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-4 d-flex align-items-center justify-content-center">
+                            <div class="card h-100" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="profile photo of team member 3">
+                                <div class="card-header">Team Member 3</div>
+                                <div class="card-body">
+                                    <h5 class="card-title">COO</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="container contact-section mt-3" id="contact-section">
+            <h2>Contact Us</h2>
+            
+            <div class="row">
+                <div class="col-md-4 company-info d-flex flex-column justify-content-center align-items-center p-3">
+                    <h3 class="mb-4">We Would Love To Hear From You</h3>
+                    <ul>
+                        <li>
+                            <!-- https://icones.js.org/ -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M12 22q-4.025-3.425-6.012-6.362T4 10.2q0-3.75 2.413-5.975T12 2h.5q.25 0 .5.05v2.025q-.25-.05-.488-.063T12 4Q9.475 4 7.738 5.738T6 10.2q0 1.775 1.475 4.063T12 19.35q3.05-2.8 4.525-5.087T18 10.2V10h2v.2q0 2.5-1.987 5.438T12 22m1.413-10.587Q14 10.825 14 10t-.587-1.412T12 8t-1.412.588T10 10t.588 1.413T12 12t1.413-.587M18 8h2V5h3V3h-3V0h-2v3h-3v2h3z"/></svg>
+                            123 Fake Street, NY, 10001
+                        </li>
+
+                        <li>
+                            <!-- https://boxicons.com/icons?free=true&q=location -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M16 11V8h-3V6h3V3h2v3h3v2h-3v3zm3.95 10q-3.125 0-6.187-1.35T8.2 15.8t-3.85-5.55T3 4.05V3h5.9l.925 5.025l-2.85 2.875q.55.975 1.225 1.85t1.45 1.625q.725.725 1.588 1.388T13.1 17l2.9-2.9l5 1.025V21zM6.025 9l1.65-1.65L7.25 5H5.025q.125 1.125.375 2.113T6.025 9m8.95 8.95q1 .425 2.013.675T19 18.95v-2.2l-2.35-.475zm0 0"/></svg>
+                            917-555-0001
+                        </li>
+
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M7 17q-.825 0-1.412-.587T5 15V5q0-.825.588-1.412T7 3h14q.825 0 1.413.588T23 5v10q0 .825-.587 1.413T21 17zm6.425-5.1L7 7.425V15h14V7.425L14.575 11.9q-.275.2-.575.2t-.575-.2M14 9.85L21 5H7zM3 21q-.825 0-1.412-.587T1 19V7.5q0-.425.288-.712T2 6.5t.713.288T3 7.5V19h15.5q.425 0 .713.288T19.5 20t-.288.713T18.5 21zM21 7.35V5H7v2.35V5h14z"/></svg>
+                            info@americaontech.com                
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-8 form-column">
+                    <form>
+                        <div class="row">
+                            <div class="col-sm-6 mt-3 mb-3">
+                                <label class="form-label" for="firstName">First Name</label>
+                                <input type="text" class="form-control" name="name">
+                            </div>
+
+                            <div class="col-sm-6 mt-3 mb-3">
+                                <label class="form-label" for="lastName">Last Name</label>
+                                <input type="text" class="form-control" name="lastName">
+                            </div>
+
+                            <div class="col-sm-6 mb-3">
+                                <label class="form-label" for="email" >Email</label>
+                                <input type="email" class="form-control" name="email">                            
+                            </div>
+
+                            <div class="col-sm-6 mb-3">
+                                <label class="form-label" for="number">Phone Number</label>
+                                <input type="text" class="form-control" name="number">                                
+                            </div>
+
+                            <div class="col-sm-12 mb-3">
+                                <label class="form-label" for="text_area">Write Your Message:</label>
+                                <textarea class="form-control" id="text_area" rows="3"></textarea>
+                            </div>
+
+                            <div class="col-sm-12 mb-3">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </form>    
+                </div> 
+            
+            </div>
+        </section>
+
+        <footer class="border-top py-5">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-6">
+                        <h5>Subscribe To Our Newsletter</h5>
+                        <p>Stay up to date with everything we are up to! Free to sign up. Easy to unsubscribe. </p>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <form class="d-flex gap-2">
+                            <label for="email_footer">Email address</label>
+
+                            <input type="email" class="form-control" id="email_footer" placeholder="example@email.com">
+                            
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-between pt-3 mt-4 border-top">
+                    <span>&copy; 2026 Company.</span>
+                    <div class="d-flex gap-3">
+                        <a href="#">Privacy</a>
+                        <a href="#">Terms</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>
